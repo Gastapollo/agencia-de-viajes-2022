@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap:100 px !important; 
+}
+
+
+.destinosclasicos{
+background-color: beige;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.destinosclasicos2{
+  background-color: beige;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+ flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+.cardviaje{
+ width: 300rem;
+ 
+
+ 
+}
+.cardviaje2{
+  display: flex;
+  margin-left: 15vh;  
+  background-color: #7a89fc;
+ padding: 20px;
+ margin: 25px;
+ align-items: center;
+
+}
+
+
+
+
+.fa-brands {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+;
+background-color:green;
+font-size: 45px;
+
+}
+.fa-whatsapp {
+    font-size: 45px;
+    background-color: rgb(227, 229, 232);
+    color: rgb(11, 206, 66);
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 105px;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;   
+}
+h2
+{
+  background-color: #6bcfe8;
+  display: flex;
+  justify-content: center;
+  padding:10px;
+  margin: 15px;
+  font-style: italic;
+  margin-left: 25vh;
+  margin-right: 35vh;
+  padding: 2vh;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 35px;
+  font-family:  sans-serif;
+  text-decoration:dotted;
+  color: #560cf6;
+  border-radius: 10px;
+  border-style: groove;
+  
+}
+.links{
+  display: flex;
+margin: auto;
+background-color: yellow;
+padding-top: 20px;
+display: flex;
+justify-content: center;
+flex-wrap: nowrap;
+image-rendering: auto;
+
+
+}
+.links_nav{
+  display: flex;
+  align-items: center;
+background-color: rgb(255, 0, 132);
+margin: auto;
+font-size: medium;
+justify-items: center;
+padding: 20px;
+
+}
+.video{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 25px;
+margin-left: 25px;
+
+}
+.icono{
+width: 40px;
+height: 40px;
+display: flex;
+
+}
+.iconoface{
+  display: flex;
+  width:45px;
+  height:45px;
+  align-items: right;
+}
+.prueba{
+  background-color: #00ffff;
+  font-size: 200px;
+  padding: 25px;
+  background-image: -moz-linear-gradient();
+}
+.links__nav{
+  display: flex;
+  align-items: left;
+  padding: 10px;
+  margin: 12px;
+  justify-content: center;
+  font-size: medium;
+  gap: 15px;
+  
+  margin-right: 19px;
+
+}
+
+.links__nav__nos{
+  display: flex;
+  padding: 15px;
+  background-color: rgb(53, 215, 174);
+  border-radius: 5px;
+}
+
+
+  
+  
+
+.formulario{
+
+      background-color: aqua;
+      font-size: medium;
+      padding: 10rem;
+      float: left;
+      box-sizing: 300rem;
+    }
+    .formulario__estilo{
+
+      box-sizing: 125px;
+      background-color: #7a89fc;
+      font-size: larger;
+    }
+    h4{
+
+      font-size: larger;
+      font-weight: 200;
+      font-style: italic;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+h5{
+
+      font-size: larger;
+      font-weight: 200;
+      font-style: italic;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+h6{
+
+      font-size: larger;
+      font-weight: 200;
+      font-style: italic;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+h7{
+
+      font-size: larger;
+      font-weight: 200;
+      font-style: italic;
+      font-family: Arial, Helvetica, sans-serif;
+    }
