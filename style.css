@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-}
+} /*
 .main{
 
   display: flex;
@@ -203,3 +203,176 @@ h7{
       font-style: italic;
       font-family: Arial, Helvetica, sans-serif;
     }
+*/
+
+.destinosclasicos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  width: 100%;
+  justify-content: space-around;
+}
+.cardviaje{
+ width: 300rem;
+ 
+
+ 
+}
+.cardviaje2{
+  display: flex;
+  margin-left: 15vh;  
+  background-color: #7a89fc;
+ padding: 20px;
+ margin: 25px;
+ align-items: center;
+}
+.gridContainer{
+  display: grid;
+  grid-template-areas: "header header"
+  "encabezado_texto encabezado_video"
+  "titulo titulo"
+  "Destinosclasicos Destinosclasicos"
+  "footer footer";
+      background-color: rgb(193, 188, 188);	
+  grid-template-columns: 50% 50%;
+grid-template-rows: 100px 1fr auto 400px;
+}
+
+header{
+  grid-area: header;
+  display: flex;
+  background-color: rgb(162, 247, 174);
+
+  
+}
+.links{
+  
+  padding: 1px;
+  display: flex;
+  flex: 1;
+  list-style-position: none;
+  width: 100%;
+
+}
+.links__nav{
+  display: flex;
+  list-style-position: none;
+  gap: 15px;
+}
+.links__nav__nos{
+  padding: 1rem;
+  font-size: 1,5 rem;
+  position: relative;
+  top: 20px; 
+  justify-items: center;
+  justify-content: center;
+  list-style: none;
+  background-color: bisque;
+  
+}
+section.encabezado_new{
+  grid-area: titulo;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(239, 177, 63);
+  justify-items: center;
+
+}
+h2{
+  
+  color: rgb(189, 56, 7);
+}
+section.destinosclasicos{
+  grid-area: Destinosclasicos;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+footer{
+  grid-area: footer;
+  background-color: brown;
+}
+section.encabezado_video{
+  grid-area: encabezado_video;
+  display: flex;
+  padding: auto;
+  background-color: rgb(190, 208, 73);
+  justify-items: center;
+  justify-content: center;
+}
+section.encabezado_texto{
+
+  grid-area: encabezado_texto;
+  background-color: blue;
+
+}
+
+footer {
+  background-color: rgb(53, 230, 67);
+  color: white;
+  height: max-content;
+}
+
+.footer-bottom__copyright {
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+}
+
+.footer-bottom__copyright a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-bottom__copyright a:hover {
+  color: #72c755;
+  text-decoration: underline;
+  width:100%;
+
+}
+.icono{
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
+
+  
+
+
+    @media (MAX-WIDTH:760PX){
+
+       .gridContainer{
+        display: grid;
+        color: #7a89fc;
+        grid-template-columns:  100%;
+        grid-template-areas: header 
+                             encabezado_texto
+                             encabezado_video
+                             titulo
+                             destinosclasicos
+                             footer;
+        background-color: #f2e860;
+        display: inline-block;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+       }
+        .destinosclasicos{
+          display: flex;
+          display: inline-block;
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: 80%;
+          justify-content: center;
+          justify-items: center;
+
+        }
+       .enccabezado_video{
+        display: flex;
+        display: inline-block;
+       }
+    }
+      
+    
